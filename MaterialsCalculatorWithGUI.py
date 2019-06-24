@@ -14,7 +14,7 @@ layout = [ [sg.Menu(menu_def, tearoff=False)],
            [sg.In(size=(20, 1), key='unit cost', justification="center", font=("Zapfino", 10)), sg.T('Cost Per Unit (Ex: per sq-ft)', font="Zapfino", background_color="beige")],
            [sg.In(size=(20, 1), key='sales tax', justification="center", font=("Zapfino", 10)), sg.T('Sales Tax (% form)', font="Zapfino", background_color="beige")],      
            [sg.Txt('', size=(20, 1), key='output', font="Zapfino", background_color="beige") ],
-           [sg.Button('Click For Total Cost With Tax', font="Zapfino", bind_return_key=True)]]      
+           [sg.Button('Click For Total Cost', font="Zapfino", bind_return_key=True)]]      
      
 window = sg.Window('Materials Cost Calculator', layout, background_color="beige")      
      
